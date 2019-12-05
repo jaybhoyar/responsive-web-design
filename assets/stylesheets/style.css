@@ -352,7 +352,13 @@ tr:nth-child(even){
     iframe {
         width: 80%;
     }
+    .form-container{
+        width: 80%;
+    }
     .input-text {
         width: 100%;
+    }
+    .left {
+        margin: 0;
     }
 }
