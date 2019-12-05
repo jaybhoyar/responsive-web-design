@@ -434,6 +434,10 @@ tr:nth-child(even) {
   }
   .row2 {
     width: 60%;
+    text-align: justify;
+  }
+  .col-1 {
+    margin-left: 0px;
   }
   .col,.col-1 {
     width: 100%;
