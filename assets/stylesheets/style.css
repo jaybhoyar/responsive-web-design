@@ -315,12 +315,12 @@ tr:nth-child(even){
 }
 
 @media only screen and (max-width: 768px) {
-    .toggle {
+    /* .toggle {
         display: block;
     }
     .nav-items{
         display: none;
-    }
+    } */
     .main-heading{
         font-size: 34px;
     }
