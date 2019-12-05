@@ -1,0 +1,358 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom CSS ------------------------------------- */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.black {
+    color: #2B3E50;
+}
+.container {
+    padding-bottom: 70px;
+}
+/* Header -------------------------------------------- */
+.nav-container {
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    background-color: #283D50;
+}
+.logo {
+    height: 50%;
+    width: 50%;
+}
+.logo img{
+    max-width:150px;
+    height: 35px;
+}
+.nav {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.nav a{
+    color: #fff;
+}
+.nav-items {
+    padding-top: 10px;
+}
+.nav-items a{
+   margin-right: 20px;
+   text-transform: uppercase;
+   font-weight: 600;
+}
+.light-green {
+    color: #3ba97b;
+}
+
+/* section 1 */
+.section1 {
+    background-image: linear-gradient(to top, #3ba97b, #00b49d, #009397, #007284, #225367);
+}
+.main-heading {
+    font-weight: 700;
+    font-size: 50px;
+    padding-top: 130px;
+    line-height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.619);
+    letter-spacing: 1.5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.short-description {
+    font-size: 22px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 130px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.619);
+
+}
+/* Section II---------------------- */
+.black {
+    color: #2B3E50;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.col img {
+    max-width: 100%;
+    height: 100%;
+}
+.row {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.col{
+    width: 30%;
+    margin-right: 20px;
+    height: 200px;
+}
+.heading {
+    padding-top: 70px;
+    padding-bottom: 30px; 
+}
+.row2 {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.col-1 {
+    margin-left: 30px;
+    color: rgba(255, 255, 255, 0.845);
+}
+.apply-button {
+    margin-top: 40px;
+    padding: 13px 40px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    padding-bottom: 16px;
+    background-color: #fff;
+    border: 1.5px solid #000;
+    border-radius: 3px;
+}
+.center-button {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Section 4 ---------------------------- */
+.form-container {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+.input-text {
+    padding: 20px 0;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+.green {
+    background-color: #316D5E;
+    border: none;
+    color: #fff;  
+}
+.left {
+    margin: 0 0 0 70px;
+    text-align: left;
+}
+.section4 {
+    background-color:#BDC7D2;
+    padding: 100px 0;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    width:100%;
+    margin: 0px auto;
+    text-align: center;
+
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important; 
+    width:100%;
+}
+/* Section 5 -------------------------- */
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+}
+th, td {
+    text-align: left;
+    padding: 15px 15px;
+    color: #000;
+}
+tr td:first-child{
+    color: rgb(198, 66, 97);
+}
+th {
+    background-color: rgb(37, 50, 84);
+    color: rgb(39, 103, 138);
+}
+tr:nth-child(odd){
+    background-color: rgb(35, 47, 77);
+}
+tr:nth-child(even){
+    background-color: rgb(56, 69, 99);
+}
+/* Footer */
+
+.footer {
+    background-color: #2B3E50;
+}
+.row-three{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.column-1 {
+    width: 25%;
+}
+.small-heading {
+    font-weight: 700;
+    font-size:22px;
+    padding: 30px 0;
+    line-height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    color: #DCF1DE;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+.details {
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+    color: #DCF1DE;
+    line-height: 25px;
+
+}
+.green-text{
+    color: #3ba97b;
+}
+.icon {
+    color: #fff;
+    font-size: 18px;
+    padding: 15px;
+    background-color: #2B3E50;
+    border-radius: 50%;
+    border: 1px solid #fff; 
+    margin-right: 10px; 
+
+}
+
+.small-footer {
+    background-color: #18242D;
+    margin: 0 auto;
+    text-align: center;
+}
+.copyright {
+    padding: 20px 0;
+    color: #DCF1DE;
+}
+/* mobile  */
+.toggle {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #283D50;
+    text-align: right;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    color: #009397;
+    font-size: 30px;
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .toggle {
+        display: block;
+    }
+    .nav-items{
+        display: none;
+    }
+    .main-heading{
+        font-size: 34px;
+    }
+    .row, .row2, .row-three{
+        display: block;
+    }
+    .row2 {
+        width: 60%;
+    }
+    .col {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .col-1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .col-1 p{
+        width: 100%;
+    }
+    .column-1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .icon {
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    iframe {
+        width: 80%;
+    }
+    .input-text {
+        width: 100%;
+    }
+}
