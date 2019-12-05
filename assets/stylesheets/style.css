@@ -176,7 +176,6 @@ a {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
-
 }
 .sub-menu {
   background: #ffffff;
@@ -272,7 +271,7 @@ a {
 }
 .col-1 {
   margin-left: 30px;
-  color: rgba(255, 255, 255, 0.845);
+  color: rgba(255, 255, 255, 0.954);
 }
 .apply-button {
   margin-top: 40px;
@@ -401,12 +400,10 @@ tr:nth-child(even) {
   color: #ffffff;
   padding-top: 8px;
   box-sizing: border-box;
-  
 }
 .icon:hover {
-    background-color: #fff;
-    color: #000;
-  
+  background-color: #fff;
+  color: #000;
 }
 
 .small-footer {
@@ -430,20 +427,21 @@ tr:nth-child(even) {
     display: block;
   }
   .row {
-      margin-bottom: 0;
+    margin-bottom: 0;
   }
   .row2 {
-    width: 60%;
-    text-align: justify;
+    width: 80%;
+    text-align: center;
   }
   .col-1 {
     margin-left: 0px;
   }
-  .col,.col-1 {
+  .col,
+  .col-1 {
     width: 100%;
     margin-bottom: 30px;
   }
- 
+
   .col-1 p {
     width: 100%;
   }
@@ -468,7 +466,7 @@ tr:nth-child(even) {
     margin: 0;
   }
   .table {
-      width: 80%;
+    width: 80%;
   }
   /* Header ---- */
   .logo {
@@ -517,6 +515,6 @@ tr:nth-child(even) {
     color: #ffffff;
   }
   .icon {
-      font-size: 16px;
+    font-size: 16px;
   }
 }
