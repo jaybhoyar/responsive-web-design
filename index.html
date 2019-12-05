@@ -19,29 +19,32 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="nav-container">
-            <nav class="nav">
-                <div class="logo">
-                    <a href="#">
-                        <img src="assets/images/logo.png" alt="">
+        <header class="header">
+                <nav class="nav-container flex">
+                    <a class="logo" href="#">
+                        <img src="assets/images/logo.png" alt="AltCampus"/>
                     </a>
-                </div>
-
-                <div class="nav-items">
-                    <a href="">Portfolio</a>
-                    <a href="">About</a>
-                    <a href="">Contact</a>
-                    <a href="">More <i class="fas fa-angle-down"></i></a>
-
-                </div>
-                <div class="toggle">
-                    <i class="fas fa-bars" aria-hidden="true"></i>
-                </div>
-            </nav>
-
-        </div>
-    </header>
+                    <label class="hamburger" for="toggle">
+                        &#9776;
+                    </label>
+                  <input id="toggle" class="toggle" type="checkbox" name="" />
+                  <ul class="nav-menu flex">
+                    <li class="nav-menu__item"><a href="#">Portfolio</a></li>
+                    <li class="nav-menu__item"><a href="#">About</a></li>
+                    <li class="nav-menu__item"><a href="#">Contact</a></li>
+                    <li class="nav-menu__item nav-sub-menu">
+                      <a class="more" href="#">More <i class="fas fa-angle-down"></i></a>
+                      <div class="sub-menu-box">
+                        <ul class="sub-menu">
+                          <li><a href="#">Google</a></li>
+                          <li><a href="#">AltCampus</a></li>
+                          <li><a href="#">Program</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </nav>
+              </header>
     <!-- Section I -->
     <main>
         <section class="section1">
@@ -185,7 +188,7 @@
             </div>
         </div>
         <div class="small-footer">
-            <p class="copyright">Copyright &copy; Your Website 2018</p>
+            <p class="copyright">Copyright &copy; Your Website 2019</p>
         </div>
     </footer>
 
